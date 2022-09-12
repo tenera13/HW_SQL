@@ -1,6 +1,8 @@
-# SQL_DDL
-
-##   Таблица employees
+______________
+SQL_DDL
+_______________
+   
+=== Таблица employees ===
 
 1. Создать таблицу employees
 - id. serial,  primary key,
@@ -85,7 +87,7 @@ values ('Andrey'),
        ('Kate10');
 
 
-##   Таблица salary
+===   Таблица salary ===
 
 3. Создать таблицу salary
 - id. Serial  primary key,
@@ -129,7 +131,7 @@ values (1000),
        (2300),
        (2400);
 
-##   Таблица employee_salary
+===   Таблица employee_salary ===
 
 5. Создать таблицу employee_salary
 - id. Serial  primary key,
@@ -186,7 +188,7 @@ values (1, 1),
        (79, 2),
        (80, 3);       
 
-##   Таблица roles
+===   Таблица roles ===
 
 7. Создать таблицу roles
 - id. Serial  primary key,
@@ -246,7 +248,7 @@ values ('Junior Python developer'),
        ('Middle Automation QA engineer'),
        ('Senior Automation QA engineer');
 
-##   Таблица roles_employee
+===   Таблица roles_employee ===
 
 10. Создать таблицу roles_employee
 - id. Serial  primary key,
